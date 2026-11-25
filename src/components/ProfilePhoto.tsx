@@ -13,7 +13,7 @@ export default function ProfilePhoto({ className = '', rounded = 'rounded-[2rem]
             <span className="px-6 text-xs font-semibold tracking-[0.2em] text-ink/50 uppercase">Your photo here · public/profile.jpg</span>
           </div>
         ) : (
-          <img src="/profile.jpg" alt="Trisha Mishra" onError={() => setMissing(true)} className="h-full w-full object-cover" />
+          <img src="/profile.jpg" alt="Trisha Mishra" onError={() => setMissing(true)} className="h-full w-full object-cover object-top" />
         )}
       </div>
     </div>
